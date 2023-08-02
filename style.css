@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar {
+    height: 100px;
+    background-color: rgb(0, 92, 184);
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.logoa {
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.features {
+    width: 600px;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-top: 42px;
+}
+
+a {
+    margin-left: 38px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.button {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 6px 25px;
+    border: 2px solid white;
+    background-color: rgb(0, 92, 184);
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+.section {
+    display: flex;
+    background-color: rgb(0, 92, 184);
+    
+}
+
+.sectionA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.image1 {
+    height: 75%;
+    display: flex;
+}    
+
+.image2 {
+    height: 75%;
+    display: flex;
+}
+
+.sectionB {
+    background:url(https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D.jpg) no-repeat;
+    background-position: -650px 0px;
+}
+
+p {
+    padding: 8px 0;
+    text-align: center;
+    background-color: rgb(20, 20, 190);
+    font-weight: bold;
+}
+
+
+.tag-line {
+    height: 150px;
+    z-index: 5;
+    margin-left: 430px;
+    margin-top: 400px;
+}
